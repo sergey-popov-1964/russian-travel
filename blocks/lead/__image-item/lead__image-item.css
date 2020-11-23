@@ -1,0 +1,5 @@
+.lead__image-item {
+  display: block;
+  grid-column: 2/3;
+  width: 100%;
+}

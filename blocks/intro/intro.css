@@ -1,0 +1,25 @@
+.intro {
+  display: grid;
+  grid-template: repeat(4, auto) / minmax(48px, auto) minmax(auto, 984px) minmax(48px, auto);
+  padding: 0;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    grid-template: repeat(4, auto)/ minmax(48px, auto) minmax(auto, 984px) minmax(48px, auto);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    grid-template: repeat(4, auto)/ 24px 1fr 24px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .intro {
+    grid-template: repeat(4, auto)/ 16px 1fr 16px;
+  }
+}

@@ -1,0 +1,10 @@
+.place__about {
+  align-self: start;
+}
+
+@media screen and (max-width: 767px) {
+  .place__about {
+    grid-row: 3/4;
+    grid-column: 2/3;
+  }
+}

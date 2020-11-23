@@ -1,0 +1,13 @@
+.cover {
+  display: grid;
+  grid-template: auto /minmax(48px, auto) minmax(auto, 1184px) minmax(48px, auto);
+  padding: 0;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    grid-template: auto / 1fr;
+  }
+
+}

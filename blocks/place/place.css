@@ -1,0 +1,30 @@
+.place {
+  grid-column: 2/3;
+  display: grid;
+  grid-template: repeat(2, auto) / repeat(2, 1fr);
+  column-gap: 18px;
+  row-gap: 48px;
+  color: #FFFFFF;
+  justify-items: start;
+  align-items: end;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    column-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    column-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template: repeat(3, auto) / 16px 1fr 16px;
+    column-gap: 0;
+    row-gap: 32px;
+  }
+}

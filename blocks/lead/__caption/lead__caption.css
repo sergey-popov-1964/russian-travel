@@ -1,0 +1,11 @@
+.lead__caption {
+  grid-column: 2/3;
+  margin: 8px 0 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.15em;
+}

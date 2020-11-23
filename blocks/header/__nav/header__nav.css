@@ -1,0 +1,10 @@
+.header__nav {
+  display: grid;
+  justify-content: space-between;
+  grid-auto-flow: column;
+  padding: 0;
+  grid-column: 2/3;
+  list-style: none;
+  text-decoration: none;
+  color: #FFFFFF;
+}
