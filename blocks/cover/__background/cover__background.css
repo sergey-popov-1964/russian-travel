@@ -3,16 +3,28 @@
   background-image: url('../../../images/cover-trains.jpg');
   background-size: contain;
   background-repeat: no-repeat;
+  max-width: 1184px;
   width: 100%;
-  padding-bottom: 62.5%;
+  height: 740px;
   grid-row: 1/2;
   grid-column: 2/3;
-  z-index: 0;
+  margin: 0 auto;
 }
 
 @media (max-width: 1279px) {
   .cover__background {
     grid-column: 1/4;
+    max-width: 1024px;
+    height: 640px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .cover__background {
+    grid-column: 1/4;
+    width: 100vw;
+    height: calc(200px + (640 - 200) * ((100vw - 320px) / (1024 - 320)))
   }
 }
 

@@ -1,13 +1,14 @@
 .cover__title {
   grid-row: 2/3;
   margin: 0 auto;
-  width: 560px;
+  max-width: 560px;
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
   color: #FFFFFF;
   align-self: end;
+  z-index: 2;
 }
 
 
