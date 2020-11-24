@@ -5,9 +5,3 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1023px) {
-  .cover {
-    grid-template: auto / 1fr;
-  }
-
-}

@@ -14,10 +14,6 @@
   opacity: .5;
 }
 
-.header__link_active {
-  text-decoration-line: underline;
-}
-
 @media screen and (max-width: 767px) {
   .header__link {
     font-size: 18px;
